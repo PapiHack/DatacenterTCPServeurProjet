@@ -180,7 +180,7 @@ public class Serveur extends JFrame implements ActionListener
 		             }
 		             else if(mode.equals("Suppression de serveur")) 
 		             {
-		            	 this.serveurManager.remove(in.readUTF());
+		            	 this.serveurManager.remove(ois.readObject().toString());
 		             }
 		             else if(mode.equals("Listing de serveur par admin")) 
 		             {
