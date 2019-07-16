@@ -22,4 +22,8 @@ Contient la logique métier. Ici, il n'y a qu'une seule classe, en l'occurence `
 
 - Service  
 
-Représente la couche service ; Elle contient q'une seule classe dénomée `DatabaseConnexionManager` permettant la connexion à n'importe quelle base de donnée et retourne un objet représentant la connexion à votre BD.
+Représente la couche service ; Elle contient q'une seule classe dénomée `DatabaseConnexionManager` permettant la connexion à n'importe quelle base de donnée et retourne un objet représentant la connexion à votre BD.  
+
+## Notes  
+
+Vous trouverez également un repertoire `lib`. Il contient un `driver` pour `MySQL` comme j'utilise ce `SGBD`.  
